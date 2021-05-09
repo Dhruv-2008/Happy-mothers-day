@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>
+            Happy Mothers Day!
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="mama.jpeg"
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+<h1 id="h1s">
+    Happy mothers Day Mama!
+</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<img src="mama.jpeg" id="mama" onclick="playAudio()">
+<h3>*click on the image Mama :-)</h3>
+<audio id="myAudio">
+    <source src="mothers_day.mp3" type="audio/ogg">
+    <source src="mothers_day.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <script>
+    var x = document.getElementById("myAudio"); 
+    
+    function playAudio() { 
+      x.play(); 
+    } 
+    </script>
+</center>
+    </body>
+</html>
